@@ -1,0 +1,18 @@
+from random import shuffle
+n1 = str(input('Digite o 1 nome: '))
+n2 = str(input('Digite o 2 nome: '))
+n3 = str(input('Digite o 3 nome: '))
+n4 = str(input('Digite o 4 nome: '))
+n5 = str(input('Digite o 5 nome: '))
+n6 = str(input('Digite o 6 nome: '))
+n7 = str(input('Digite o 7 nome: '))
+n8 = str(input('Digite o 8 nome: '))
+n9 = str(input('Digite o 9 nome: '))
+n10 = str(input('Digite o 10 nome: '))
+n11 = str(input('Digite o 11 nome: '))
+lista = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11]
+shuffle(lista)
+print('A ordem de apresentação será')
+print('=+'*40)
+print('\n', lista)
+print('=+'*40)
