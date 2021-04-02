@@ -1,4 +1,21 @@
-dis = float(input('Qual a distância da viagem ?'))
+try:
+    dis = float(input('Qual a distância da viagem ?'))
+    if dis <= 200:
+        preco = dis * 0.50
+    elif dis > 200:
+        preco = dis * 0.45
+        print('*=' * 25)
+        print('E o preço da sua viagem será R${:.2f}'.format(preco))
+        print('*=' * 25)
+except:
+    print('Valor Incorreto, Tente Novamente')
+
+
+
+
+
+
+'''dis = float(input('Qual a distância da viagem ?'))
 if dis <= 200:
     preco = dis * 0.50
 else:
@@ -6,3 +23,4 @@ else:
 print('*=' * 25)
 print('E o preço da sua viagem será R${:.2f}'.format(preco))
 print('*=' * 25)
+'''
