@@ -3,7 +3,7 @@ media_idade = 0
 maior_ida_h = 0
 nome_velho = ''
 total_mulher_20 = 0
-for p in range(1, 5):
+for p in range(1, 11):
 	print(f'======= {p}ª Pessoa ========')
 	nome = str(input('Nome: ')).strip()
 	idade = int(input('Idade: '))
