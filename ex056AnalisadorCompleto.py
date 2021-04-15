@@ -17,7 +17,7 @@ for p in range(1, 11):
 		nome_velho = nome
 	if genero in 'Ff' and idade < 20:
 		total_mulher_20 += 1
-media_idade = soma_idade / 4
+media_idade = soma_idade / 10
 print(f'A média das idades é {media_idade}')
 print(f'O Homem mais velho tem {maior_ida_h} e se chama {nome_velho}')
 print(f'Total de mullheres menores que 20 anos é {total_mulher_20}')
